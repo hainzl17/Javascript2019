@@ -6,3 +6,6 @@ document.getElementByID()
 doment = Refers the web page
 getElementById{} = Access a specific HTML item by ID
 innerHTML = Access the text between two like tags
+How to make functions:
+function
+parseInt - turns strings into integers
