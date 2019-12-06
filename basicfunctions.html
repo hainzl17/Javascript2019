@@ -10,13 +10,41 @@
     var sum = num1 + num2;
     document.getElementById('answer').innerHTML = sum;
   }
+  function subtract(){
+    var num1 = parseInt(document.getElementById('num1').value);
+    var num2 = parseInt(document.getElementById('num2').value);
+    var difference = num1 - num2;
+    document.getElementById('answer').innerHTML = difference;
+  }
+  function multiply(){
+    var num1 = parseInt(document.getElementById('num1').value);
+    var num2 = parseInt(document.getElementById('num2').value);
+    var product = num1 * num2;
+    document.getElementById('answer').innerHTML = product;
+  }
+  function divide(){
+    var num1 = parseInt(document.getElementById('num1').value);
+    var num2 = parseInt(document.getElementById('num2').value);
+    var quotient = num1 / num2;
+    document.getElementById('answer').innerHTML = quotient;
+  }
 </script>
 
   </head>
   <body>
-  Number 1: <input type="text" name="num1" id = "num1"><br />
-  Number 2: <input type="text" name="num1" id = "num2"><br />
-  <button type="button" name="button" onClick="addNums()">What do they add up to?</button><br />
+  Number 1: <input type="text" name="num1" id = "num1">
+  <br />
+  Number 2: <input type="text" name="num1" id = "num2">
+  <br />
+  <button type="button" name="button" onClick="addNums()">What do they add up to?</button>
+  <br />
+  <button type="button" name="button" onClick="subtract()">What is the difference?</button>
+  <br />
+  <button type="button" name="button" onClick="multiply()">What is the product?</button>
+  <br />
+  <button type="button" name="button" onClick="divide()">What is the quotient?</button>
+  <br />
   <p id="answer">The answer is: </p>
+  <br />
   </body>
 </html>
