@@ -10,3 +10,4 @@ onClick = calls on a function
 How to make functions:
 function
 parseInt - turns strings into integers
+Math.random() = generates random numbers
