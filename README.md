@@ -11,3 +11,6 @@ How to make functions:
 function
 parseInt - turns strings into integers
 Math.random() = generates random numbers
+&& -> used to combine two different parts of code
+<= less than or equal to
+>= greater than or equal to
