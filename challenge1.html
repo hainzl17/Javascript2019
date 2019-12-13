@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge 1</title>
+    <script type="text/javascript">
+    function education(){
+      var age = document.getElementById("age").value;
+      var years = document.getElementById("years").value;
+      if (age > 18 && years > 12){
+        alert("You have graduated!")
+      }
+      else{
+        alert("Get to class!")
+      }
+    }
+    </script>
+  </head>
+  <body>
+Age: <input type = "text" name = "age" id = "age"><br />
+Years of Education: <input type = "text" name = "years" id = "years"><br />
+<button type="button" onClick="education()">Here's what I have to say!</button>
+</body>
+</html>
