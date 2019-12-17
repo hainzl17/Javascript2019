@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <title>Nintendo Switch Games</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/masters.css">
+  function swapImages(){
+        document.getElementById('img1').src="img/HappyFace.gif";
+      }
+function swapAgain(){
+
+        document.getElementById('img1').src="images4/SuperMarioMaker2.png";
+
+      }
+function swapThat(){
+
+        document.getElementById('img1').src="images4/SuperMarioOdyssey.png";
+
+      }
+function swapThis(){
+
+        document.getElementById('img1').src="images4/MarioKart8Deluxe.png";
+
+      }
+ function getFooled(){
+    var i;
+    for (i=0; i < 10; i++){
+      alert("YOU JUST GOT FOOLED!")
+      }
+ }
+</head>
+
+
+
+<body>
+
+  <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+
+        <li class="nav-item"><a class="nav-link" href="info.html">About Us</a></li>
+
+        <li class="nav-item active"><a class="nav-link" href="switchgames.html">Switch Games</a></li>
+
+        <li class="nav-item"><a class="nav-link" href="3dsgames.html">3DS Games</a></li>
+        
+        <button type="button" onClick="getFooled()">Click here to order a free Nintendo Switch!</button>
+
+      </ul>
+
+          <form class="form-inline  mr-sm-2" action="#">
+
+              <label for="help">Look Around!</label>
+
+              <input type="text" id = "help" class="form-control" name="help" value="What do you need?">
+
+              <button type="submit" class="btn btn-danger">Search</button>
+
+          </form>
+
+    </nav>
+
+    <div class="jumbotron feature text-center">
+
+      <img src="images4/NintendoLogo.png" alt = "Company Logo">
+
+    </div>
+
+    <div class = "header">
+
+    <h3>Nintendo Switch Games</h3>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-4 other">
+
+        <img src="images4/SuperMarioMaker2.png" alt="Switch Game" onmouseover = "swapImages()" onmouseout = "swapAgain()" width = "400" height = "400">
+
+        <h2>Super Mario Maker 2 <small>$59.99</small></h2>
+
+        <hr>
+
+        <p>Make and play your own Mario courses anytime, anywhere!</p>
+
+      </div>
+
+      <div class="col-sm-4 other">
+
+        <img src="images4/SuperMarioOdyssey.png" alt="Best Switch Game" id = "img1" onmouseover = "swapImages()" onmouseout = "swapThat()" width = "400" height = "400">
+
+        <h2>Super Mario Odyssey <small>$59.99</small></h2>
+
+        <hr>
+
+        <p>Join Mario in his most exciting adventure yet, as he teams up with Cappy to save Peach!</p>
+
+      </div>
+
+      <div class="col-sm-4 other">
+
+        <img src="images4/MarioKart8Deluxe.png" alt = "Second Best Switch Game" onmouseover = "swapImages()" onmouseout = "swapThis()" width = "400" height = "400">
+
+        <h2>Mario Kart 8 Deluxe <small>$59.99</small></h2>
+
+        <hr>
+
+        <p>The karts are now anti-gravitational and can travel through air, and they can now hold up to two items in this upgrade over the original Wii U game!</p>
+
+      </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-12">
+
+          Copyright 2019. All rights reserved. Mario and Link are trademarks of Nintendo.
+
+        </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
